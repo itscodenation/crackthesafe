@@ -13,30 +13,30 @@
   <!-- TASK 1: In the div below. 
         1. In a header tag, add a title.
         2. In a paragraph tag, add instructions on how to play the game.
-        3. Add a RPS image.
-        4. Add input box and button .
-        5. Add divs to record User Choice and Computer Choice.
-        6. Add a div to record the Winner.
+        3. Add an image.
+        4. Add 4 input boxes and button .
+        5. Add divs to record user choice. 
+        6. Add a div to record correct number counts and winner
      -->
   <div class="row">
-      <h1>Rock Paper Scissors</h1>
-      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
+      <h1>Crack the safe</h1>
+      <img src="https://us.123rf.com/450wm/coliap/coliap1110/coliap111001224/10888364-open-safe-with-gold-inside-isolated-on-white.jpg?ver=6">
 
       <h3>Please Submit Your Choice Below</h3>
-      <div>
-        <input id="input">
-        <button id="shoot">Shoot!</button>
+      <div class="inputBoxes">
+        <input id="number1">
+        <input id="number2">
+        <input id="number3">
+        <input id="number4">
       </div>
-
-      <div id="choices" class="row">
-        <div>
-          <h4>User Choice</h4>
-          <p id="userChoice"></p>
-        </div>
-        <div>
-          <h4>Computer Choice</h4>
-          <p id="computerChoice"></p>
-        </div>
+      <div class="buttons">
+            <button id="verify">Verify!</button>
+      </div>
+      <div class="results">
+      </div>
+      <div>
+        <h4>User Choice</h4>
+        <p id="userChoice"></p>
       </div>
       <div id="result"></div>
   </div>
