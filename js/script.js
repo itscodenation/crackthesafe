@@ -49,9 +49,9 @@ $( document ).ready(function() {
 
       $('#userChoice').text("User input: " + guess1 + " " + guess2 + " " + guess3 + " " + guess4);
       if (numbersInPlace === 4) {
-          $('.results').text("Congratulations you win!!!");
+          $('#results').text("Congratulations you win!!!");
       } else {
-          $('.results').text("Numbers correct: " + numbersCorrect + ", numbers in correct place: " + numbersInPlace);
+          $('#results').text("Numbers correct: " + numbersCorrect + ", numbers in correct place: " + numbersInPlace);
       }
   });
 });
