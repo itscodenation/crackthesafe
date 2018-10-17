@@ -47,7 +47,7 @@ $( document ).ready(function() {
           numbersCorrect = numbersCorrect + 1;
       }
 
-      $('#userChoice').text("User input: " + number1 + " " + number2 + " " + number3 + " " + number4);
+      $('#userChoice').text("User input: " + guess1 + " " + guess2 + " " + guess3 + " " + guess4);
       if (numbersInPlace === 4) {
           $('.results').text("Congratulations you win!!!");
       } else {
